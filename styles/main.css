@@ -1,0 +1,53 @@
+#holygrail{
+    padding: 20px;
+    font: lem verdana,Arial,sans-serif;
+    background-color: coral;
+    color:white;
+    background-image: linear-gradient(coral, #772953);
+    opacity: 0.8;
+}
+#header{
+
+    margin:20px ;
+    border: 2px solid;
+    height: 30px;
+    width: 50px;
+    border-color: white;
+    padding: 10px;
+    text-align: center;
+}
+#main {
+    margin: 20px;
+    border: 2px solid;
+    border-color:white;
+    height: 300px;
+    /* width: 90%; */
+    padding: 10px;
+}
+#content {
+    margin: 20px;
+    border: 2px solid;
+    padding: 10px;
+}
+#secondary {
+    margin: 20px;
+    border: 2px solid;
+    padding: 10px;
+    width: 70%;
+}
+#tertiary {
+    margin: 20px;
+    border: 2px solid;
+    padding: 10px;
+    text-align: center;
+}
+#footer {
+    margin:20px ;
+    border: 2px solid;
+    height: 30px;
+    width: 50px;
+    border-color: white;
+    padding: 10px;
+    text-align: center;
+
+}
