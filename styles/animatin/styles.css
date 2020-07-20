@@ -1,0 +1,53 @@
+section, h1 {
+    margin: 2rem 4rem; 
+   }
+  
+   .square {
+       width: 100px;
+       height: 100px;
+     position: relative;
+     background-color: blue;
+     
+   }
+   
+   #skew .square:hover{ 
+    background-color: purple;
+  -ms-transform: skew(10deg); 
+    transform: skew(10deg);
+   }
+ 
+#scale .square div { 
+    background: #000;  
+    position: absolute;
+    left: 25%;
+    top: 25%;
+    width: 50px;
+    height: 50px;
+ }
+ 
+ #scale .square div:hover {
+    -ms-transform: scale(1.5); 
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.5); 
+ }
+ 
+/* The rotate() method */
+#rotate .square {
+    background-color: tomato;
+  }
+  
+  #rotate .square:hover{   
+    -ms-transform: rotate(20deg); 
+  transform: rotate(20deg);
+  }
+  /* The translate() method */
+#translate .square {
+    background-color: orange;
+  
+  }
+  
+  #translate .square:hover { 
+    -ms-transform: translate(900px);
+  transform: translate(900px); 
+}
+  }
